@@ -9,7 +9,7 @@ Passwordless WordPress sign-in with the Thessley Passkey app: a QR code — or a
 ## Quick install
 
 ```sh
-wp plugin install https://github.com/netmate1234/thessley-passkey/releases/latest/download/thessley-passkey-1.0.0.zip --activate
+wp plugin install https://github.com/netmate1234/thessley-passkey-wordpress/releases/latest/download/thessley-passkey-1.0.0.zip --activate
 ```
 
 Or upload the release zip under **Plugins → Add New → Upload Plugin**, then open **Thessley Passkey** and pick a login method.
@@ -35,7 +35,7 @@ Requirements: WordPress 6.0+, PHP 8.3+.
 
 ## Install
 
-1. Upload the `thessley-passkey` folder to `wp-content/plugins/`, or install the zip from [Releases](https://github.com/netmate1234/thessley-passkey/releases).
+1. Upload the `thessley-passkey` folder to `wp-content/plugins/`, or install the zip from [Releases](https://github.com/netmate1234/thessley-passkey-wordpress/releases).
 2. Activate it, then choose a login method under **Thessley Passkey**.
 3. Sign in on a phone with the app and add it from your profile screen.
 
