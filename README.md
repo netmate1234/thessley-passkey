@@ -47,7 +47,8 @@ Requires WordPress 6.0+ and PHP 8.3+. No external service: QR codes are drawn lo
 
 - [Thessley](https://github.com/netmate1234/Thessley) — the project family and overview deck
 - [Thessley Security Hardening](https://github.com/netmate1234/thessley-security-hardening) — events from this plugin land in its Event Log when both are active
-- [Passkey server](https://github.com/netmate1234/thessley-passkey-server) — the same protocol for Drupal
+- [Thessley Passkey for Drupal](https://github.com/netmate1234/thessley-passkey-drupal) — the same protocol for Drupal
+- [Passkey protocol](https://github.com/netmate1234/thessley-passkey-server) — the wire format behind both
 
 ## License
 
