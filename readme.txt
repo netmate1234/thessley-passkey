@@ -36,6 +36,8 @@ This is the server half of the protocol. The Android app is a separate project.
 3. Open **Thessley Passkey** in the admin menu and pick a login method.
 4. Log in on a phone with the Thessley Passkey app and add it from your profile screen.
 
+Before changing to **Password, then the app** or **App only**, test at least two independent approvers and keep a separate break-glass administrator with password access. Take a restorable database/files backup and confirm hosting or WP-CLI recovery access. If the login integration causes trouble, deactivate `thessley-passkey` with WP-CLI (`wp plugin deactivate thessley-passkey`) or the hosting file manager; deactivation preserves enrolled-device data. Do not delete the plugin as the first recovery step.
+
 **Upgrading from Thessley Security Hardening:** if you used the Passkey Login module there, install this plugin *before* updating the hardening plugin. It reuses the same tables (`wp_thessley_passkeys`, `wp_thessley_passkey_requests`) and options (`thessley_passkey_mode`, `thessley_passkey_identify`), so every enrolled device and the settings carry over with no re-enrolment. Deactivate the old module by updating Thessley Security Hardening, which no longer ships it.
 
 == Frequently Asked Questions ==

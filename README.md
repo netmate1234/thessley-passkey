@@ -16,6 +16,8 @@ Or upload the release zip under **Plugins → Add New → Upload Plugin**, then 
 
 **Verify:** `wp-login.php` shows the QR box. Add a phone from your profile page.
 
+**Lockout prevention:** begin in `Password or the app` mode, enroll and test at least two independent approvers, and keep a separate break-glass administrator with password access. Do not switch to a required/app-only mode until recovery is proven. Before production changes, take a restorable database/files backup and confirm hosting or WP-CLI access. To recover, use WP-CLI or hosting file access to deactivate `thessley-passkey`; deactivation preserves enrolled-device data. See the [safe install and recovery guide](https://github.com/netmate1234/Thessley/blob/main/docs/wordpress-safe-install.md).
+
 Requirements: WordPress 6.0+, PHP 8.3+.
 
 ## Three modes
